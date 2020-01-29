@@ -3,6 +3,8 @@
 echo "<em>", "Gursharan kaur 8622669 Dated : 29.01.2020 ","<em>","<br><br>";
 echo "Part 3 Arrays and strings","<br><br>";
 
+echo "Entered String  " .$_POST['firstname'];
+
 function uniqueCharacter($str){
 
 	for ($i=0;$i<strlen($str);$i++){
